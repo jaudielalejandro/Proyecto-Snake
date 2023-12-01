@@ -2,7 +2,7 @@
 //Nombre: StateMan.hpp
 //Autores : Josue Daniel Portales Rodriguez,
 //          Jaudiel Alejandro Jaime Lomeli
-//
+//o
 //Version : Final
 //Descripcion: Definicion de la clase StateMan
 //=======================================================================
