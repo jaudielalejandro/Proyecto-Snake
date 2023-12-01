@@ -1,3 +1,2 @@
 # Proyecto-Snake
 
-cout
