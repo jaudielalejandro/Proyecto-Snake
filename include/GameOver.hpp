@@ -1,5 +1,5 @@
 //=======================================================================
-//Nombre: Game.hpp
+//Nombre: GameOver.hpp
 //Autores : Josue Daniel Portales Rodriguez,
 //          Jaudiel Alejandro Jaime Lomeli
 //

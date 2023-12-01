@@ -1,5 +1,5 @@
 //=======================================================================
-//Nombre: Game.hpp
+//Nombre: PauseGame.hpp
 //Autores : Josue Daniel Portales Rodriguez,
 //          Jaudiel Alejandro Jaime Lomeli
 //
