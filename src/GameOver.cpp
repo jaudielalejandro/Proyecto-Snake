@@ -1,14 +1,3 @@
-//=======================================================================
-//Nombre: GameOver.cpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Implementaicion de la clase GameOver
-//=======================================================================
-
-
-
 #include "GameOver.hpp"
 #include "GamePlay.hpp"
 

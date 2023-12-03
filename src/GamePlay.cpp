@@ -1,14 +1,3 @@
-//=======================================================================
-//Nombre: GamePlay.cpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Implementaicion de la clase GamePlay
-//=======================================================================
-
-
-
 #include "GamePlay.hpp"
 #include "GameOver.hpp"
 #include "PauseGame.hpp"

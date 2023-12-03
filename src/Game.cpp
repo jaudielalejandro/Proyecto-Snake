@@ -1,14 +1,3 @@
-//=======================================================================
-//Nombre: Game.cpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Implementaicion de la clase Game
-//=======================================================================
-
-
-
 #include <SFML/Graphics/CircleShape.hpp>
 
 #include "Game.hpp"

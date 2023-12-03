@@ -1,14 +1,3 @@
-//=======================================================================
-//Nombre: StateMan.cpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Implementaicion de la clase StateMan
-//=======================================================================
-
-
-
 #include "StateMan.hpp"
 
 Engine::StateMan::StateMan() : m_add(false), m_replace(false), m_remove(false), m_removeAll(false)

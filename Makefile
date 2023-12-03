@@ -1,5 +1,3 @@
-
-
 CXX		  := g++
 CXX_FLAGS := -Wall -Wextra -Wno-unused-parameter -std=c++17 -ggdb
 

@@ -1,11 +1,3 @@
-//=======================================================================
-//Nombre: MainMenu.hpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Definicion de la clase MainMenu
-//=======================================================================
 #pragma once
 
 #include <memory>

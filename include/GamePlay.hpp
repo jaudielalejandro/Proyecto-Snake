@@ -1,11 +1,3 @@
-//=======================================================================
-//Nombre: GamePlay.hpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Definicion de la clase GamePlay
-//=======================================================================
 #pragma once
 
 #include <memory>

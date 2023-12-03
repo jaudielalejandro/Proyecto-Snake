@@ -1,11 +1,3 @@
-//=======================================================================
-//Nombre: PauseGame.hpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Definicion de la clase PauseGame
-//=======================================================================
 #pragma once
 
 #include <memory>

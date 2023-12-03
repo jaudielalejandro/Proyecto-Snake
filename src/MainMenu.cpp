@@ -1,13 +1,3 @@
-//=======================================================================
-//Nombre: MainMenu.cpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Implementaicion de la clase Game
-//=======================================================================
-
-
 #include "MainMenu.hpp"
 #include "GamePlay.hpp"
 

@@ -1,11 +1,3 @@
-//=======================================================================
-//Nombre: Game.hpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Definicion de la clase Game
-//=======================================================================
 #pragma once
 
 #include <memory>

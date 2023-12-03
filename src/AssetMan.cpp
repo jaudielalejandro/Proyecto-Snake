@@ -1,15 +1,3 @@
-//=======================================================================
-//Nombre: AssetMan.cpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//0
-//Version : Final
-//Descripcion: Implementaicion de la clase AssetMan
-//=======================================================================
-
-
-
-
 #include "AssetMan.hpp"
 
 Engine::AssetMan::AssetMan()

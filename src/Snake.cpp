@@ -1,12 +1,3 @@
-//=======================================================================
-//Nombre: Snake.cpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Implementaicion de la clase Snake
-//=======================================================================
-
 #include "Snake.hpp"
 
 Snake::Snake() : m_body(std::list<sf::Sprite>(4))

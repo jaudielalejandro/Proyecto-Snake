@@ -1,11 +1,3 @@
-//=======================================================================
-//Nombre: Snake.hpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Definicion de la clase Snake
-//=======================================================================
 #pragma once
 
 #include <list>

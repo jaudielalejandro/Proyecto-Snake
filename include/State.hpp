@@ -1,11 +1,3 @@
-//=======================================================================
-//Nombre: State.hpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Definicion de la clase State
-//=======================================================================
 #pragma once
 
 #include <SFML/System/Time.hpp>

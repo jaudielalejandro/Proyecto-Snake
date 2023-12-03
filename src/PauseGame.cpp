@@ -1,14 +1,3 @@
-//=======================================================================
-//Nombre: Pausegame.cpp
-//Autores : Josue Daniel Portales Rodriguez,
-//          Jaudiel Alejandro Jaime Lomeli
-//
-//Version : Final
-//Descripcion: Implementaicion de la clase PauseGame
-//=======================================================================
-
-
-
 #include "PauseGame.hpp"
 
 #include <SFML/Window/Event.hpp>
