@@ -1,0 +1,51 @@
+@startuml
+class AssetMan 
+class AddTexture
+class AddFont 
+class GetTexture 
+class GetFont 
+class Game 
+class MainMenu 
+class State 
+class PauseGame 
+class StateMan 
+class GamePlay 
+class Snake 
+class GameOver
+
+GamePlay <|-- State
+
+
+
+AssetMan <|-- AddTexture
+AssetMan <|-- AddFont
+AssetMan <|-- GetTexture
+Assetman <|-- GetFont
+Game <|-- MainMenu
+Game <|-- State
+Game <|-- PauseGame
+
+
+
+
+Game --* StateMan
+StateMan --* AssetMan
+mainMenu --* GamePlay
+GamePlay --* Snake
+StateMan --* Game
+StateMan --* MainMenu
+
+
+StateMan o-- State
+StateMan o-- GameOver
+StateMan o-- GamePlay
+GamePlay o-- Snake 
+GamePlay o-- GameOver
+GamePlay o-- PauseGame
+
+@enduml
+
+
+
+
+
