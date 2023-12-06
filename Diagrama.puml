@@ -1,47 +1,190 @@
-@startuml
-class AssetMan 
-class AddTexture
-class AddFont 
-class GetTexture 
-class GetFont 
-class Game 
-class MainMenu 
-class State 
-class PauseGame 
-class StateMan 
-class GamePlay 
-class Snake 
-class GameOver
+@startuml Diagrama
 
-GamePlay <|-- State
+class AssetMan{
+    +AddTexture()
+    +AddFont()
+    +GetTexture()
+    +GetFont()
+}  
+class Game{
+    +Run()
+    +HandleInput()
+    +Update()
+    +Render()
+    +GetWindow()
+    +GetStateMan()
+    +Quit()
+    +IsRunning()
+    +SetRunning()
+    +GetDeltaTime()
+    +RestartClock()
+    +GetMousePosWindow()
+    +GetKeyTime()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+}
+class MainMenu{
+    +InitButtons()
+    +UpdateButtons()
+    +RenderButtons()
+    +Render()
+    +Update()
+    +HandleInput()
+    +InitBackground()
+    +InitFonts()
+    +InitKeybinds()
+    +GetButton()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+}
+class State{
+    +UpdateKeybinds()
+    +UpdateMousePos()
+    +EndState()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+}
+class PauseGame{
+    +InitBackground()
+    +InitFonts()
+    +InitKeybinds()
+    +UpdateButtons()
+    +RenderButtons()
+    +Render()
+    +Update()
+    +HandleInput()
+    +GetButton()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+}
+class StateMan{
+    +AddState()
+    +RemoveState()
+    +ProcessStateChanges()
+    +GetActiveState()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+}
+class GamePlay{
+    +InitBackground()
+    +InitFonts()
+    +InitKeybinds()
+    +UpdateButtons()
+    +RenderButtons()
+    +Render()
+    +Update()
+    +HandleInput()
+    +GetButton()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+} 
+class Snake{
+    +InitVariables()
+    +InitTextures()
+    +InitShape()
+    +Update()
+    +Render()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+}
+class GameOver{
+    +InitBackground()
+    +InitFonts()
+    +InitKeybinds()
+    +UpdateButtons()
+    +RenderButtons()
+    +Render()
+    +Update()
+    +HandleInput()
+    +GetButton()
+    +GetKeyTimeTotal()
+    +GetMousePosView()
+    +GetKey()
+    +EndApplication()
+}
+class sf::Drawable
+class sf::Time
+class sf::Text
+class sf::Texture
+class sf::Font
+class sf::Map
+
+GamePlay --|> State
+GameOver --|> State
+MainMenu --|> State
+PauseGame --|> State
+Snake --|> sf::Drawable
 
 
 
-AssetMan <|-- AddTexture
-AssetMan <|-- AddFont
-AssetMan <|-- GetTexture
-Assetman <|-- GetFont
-Game <|-- MainMenu
-Game <|-- State
-Game <|-- PauseGame
+
+
+sf::Time --o GameOver
+sf::Time --o GamePlay
+sf::Time --o MainMenu
+sf::Time --o PauseGame
+sf::Time --o State
+State --o StateMan
+sf::Texture --o AssetMan
+sf::Font --o AssetMan
+sf::Texture --o Snake
 
 
 
+Snake --* GamePlay
+sf::Text --* MainMenu
+sf::Map --* AssetMan
+sf::Text --* GameOver
+sf::Text --* GamePlay
+sf::Time --* GamePlay
+sf::Text --* PauseGame
 
-Game --* StateMan
-StateMan --* AssetMan
-mainMenu --* GamePlay
-GamePlay --* Snake
-StateMan --* Game
-StateMan --* MainMenu
-
-
-StateMan o-- State
-StateMan o-- GameOver
-StateMan o-- GamePlay
-GamePlay o-- Snake 
-GamePlay o-- GameOver
-GamePlay o-- PauseGame
 
 @enduml
 
